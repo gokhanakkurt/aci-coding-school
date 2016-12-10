@@ -11,7 +11,8 @@ Please take a look at the [language guide](https://developer.apple.com/library/c
 
 You can download workshop projects and run on your computer.
 
-[Workshop1](https://github.com/gokhanakkurt/aci-coding-school/tree/master/Week%202/Workshop1)
+- [Workshop1](https://github.com/gokhanakkurt/aci-coding-school/tree/master/Week%202/Workshop1)
+- [Workshop2](https://github.com/gokhanakkurt/aci-coding-school/tree/master/Week%202/Workshop2)
 
 If you have any problem, don't hesitate to ask.
 
