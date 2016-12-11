@@ -52,11 +52,6 @@ func fibonacci(val : Int) -> Int{
 
 print("fibonacci : \(fibonacci(val: 6))")
 
-func pow(x: Int, y: Int) -> Int {
-    
-}
-
-
 //
 // CLOSURES
 //
