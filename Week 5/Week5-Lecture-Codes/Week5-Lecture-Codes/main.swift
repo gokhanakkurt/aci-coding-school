@@ -8,6 +8,29 @@
 
 import Foundation
 
+// OPTIONAL CHAINING
+
+class Person {
+    var residence : Residence?
+    var car : Car?
+}
+
+class Residence{
+    var numOfRooms = 1
+}
+
+class Car{
+    
+}
+
+let aPerson = Person()
+aPerson.residence?.numOfRooms
+
+if let number = aPerson.residence?.numOfRooms{
+    print(number)
+}
+
+// print(aPerson.residence!.numOfRooms)
 
 
 // ERROR HANDLING
@@ -46,6 +69,15 @@ func printAnimal(_ animal : Animal){
 let tiger = Tiger()
 printAnimal(tiger)
 
+var list : [Any] = [Any]()
+list.append("cat")
+list.append(2)
+list.append("c")
+list.append(2.00)
+list.append(tiger)
+for each in list{
+    print(each)
+}
 
 // NESTED TYPES
 
